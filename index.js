@@ -20,7 +20,6 @@ var durationFormatter = durationFormatter || new function(){
                 return 'now'
             }else{
 
-                console.log(_duration)
                 var res = "";
 
                 _duration['year'] = Math.floor(val / _s2y),
